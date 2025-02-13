@@ -24,7 +24,7 @@ require "setups/toggleterm-setup"
 -- settings
 
 cmd [[
-  colorscheme retrobox
+  colorscheme sorbet
   autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
 ]]
 
