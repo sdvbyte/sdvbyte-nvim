@@ -27,5 +27,4 @@ return require("packer").startup(function(use)
   use "echasnovski/mini.nvim"
   use "glepnir/galaxyline.nvim"
   use "akinsho/toggleterm.nvim"
-  use "Mofiqul/vscode.nvim"
 end)

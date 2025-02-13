@@ -20,11 +20,13 @@ require "setups/treesitter-setup"
 require "setups/mini-setup"
 require "setups/galaxy-setup"
 require "setups/toggleterm-setup"
-require "setups.vscode-setup"
 
 -- settings
 
-cmd [[colorscheme vscode]]
+cmd [[
+  colorscheme retrobox
+  autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+]]
 
 require "setting"
 
