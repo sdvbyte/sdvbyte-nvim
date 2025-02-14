@@ -23,10 +23,12 @@ require "setups/toggleterm-setup"
 
 -- settings
 
+require('render-markdown').setup()
+
 cmd [[
   colorscheme sorbet
-  autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
 ]]
+-- autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
 
 require "setting"
 
